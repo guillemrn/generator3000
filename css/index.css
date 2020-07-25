@@ -1,0 +1,115 @@
+body{
+    background: #c2e59c;
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    font-family: 'Roboto Mono', monospace;
+}
+
+body em{
+    font-weight: bold;
+}
+
+.description{
+    padding: 15px;
+    text-align: center;
+    color: #070f26;
+    font-size: 18px;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* --------------------------generator3000 */
+.generator{
+    margin: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.try{
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 8px;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    transition: 300ms;
+    outline: none;
+}
+.try:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #070f26;
+    cursor: pointer;
+}
+
+.psswd{
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.psswd button{
+    text-decoration: none;
+    color: #070f26;
+    font-size: 1.5em;
+    margin-left: 25px;
+    outline: none;
+    transition: 300ms;
+}
+
+.psswd button:hover{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.botonCopiar{
+    display: block;
+    border: none;
+    background: transparent;
+}
+
+/* ----------------------------footer */
+footer{
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.title-footer{
+    color: #070f26;
+}
+
+.title-footer a{
+    text-decoration: none;
+    color: #070f26;
+    transition: 300ms;
+}
+.title-footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 22px;
+    transition: 300ms;
+    color: #fff;
+}
+
+.social:hover{
+    color: #070f26;
+}
